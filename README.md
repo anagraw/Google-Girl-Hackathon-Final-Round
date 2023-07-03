@@ -66,6 +66,7 @@ The program finds the input vector to detect Stuck at Fault in a Circuit Net and
 &emsp; * The submission.py file has the main program that returns the input vector to detect the stuck-at-fault. <br />
 &emsp; * The input.txt file contains the circuit file. <br />
 &emsp; * The fault.txt file contains the fault present in the circuit in the required format. <br />
+&emsp; * The program generates a dummy value of Z and an empty list if there is no valid input test combination <br />
 &emsp; * The output.txt is the file containing the input vector and Z value required to detect the fault. <br />
 &emsp;     (This file is generated upon executing the program) <br />
 
@@ -74,6 +75,7 @@ The program finds the input vector to detect Stuck at Fault in a Circuit Net and
 &emsp; * The Fault file should strictly contain only one stuck at fault. <br />
 &emsp; * The nets in the Circuit file should be named net_e, net_f and net_g respectively only. <br />
 &emsp; * The output in the Circuit file should be strictly named Z only. <br />
+
 
 ## How is this program an optimized approach:
 Let us say we have a server that can handle 10^8 operations per second, and hypothetically we have 20 inputs <br />
@@ -93,5 +95,7 @@ PODEM algorithm runs it in seconds <br />
 &emsp;3. Create a web app to show circuit simulations and make the experience more interactive. <br />
 
 
-
+<ins> In the future, changes might be made to make the program foolproof </ins>
+<ins> and incorporate corner cases or suggestions if found. </ins> <br />
+<ins> Replication of the program for publishing purposes without prior permission is not allowed</ins> <br />
 
