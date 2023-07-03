@@ -67,7 +67,7 @@ The program finds the input vector to detect Stuck at Fault in a Circuit Net and
 &emsp; * The input.txt file contains the circuit file. <br />
 &emsp; * The fault.txt file contains the fault present in the circuit in the required format. <br />
 &emsp; * The output.txt is the file containing the input vector and Z value required to detect the fault. <br />
-&emsp;   (This file is generated upon executing the program) <br />
+&emsp;     (This file is generated upon executing the program) <br />
 
 ## Few Requirements for the circuit file and fault file:
 &emsp; * The Circuit file should strictly have 4 inputs: A,B,C and D respectively only. <br />
