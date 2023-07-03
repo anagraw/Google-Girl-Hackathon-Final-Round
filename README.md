@@ -50,7 +50,7 @@ The output should be printed to the following file in run directory - output.txt
 ## <ins>How to run the code: </ins>
 &emsp; You may clone the GitHub repository using the git clone command in the terminal:  <br />
 &emsp; &emsp; a) Navigate to the Code tab, and in the dropdown, choose HTTPS:  <br />
-&emsp; &emsp; ![image](https://github.com/anagraw/Google_Girl_Hackathon_Final_Round/assets/92045291/929379b6-a5ff-49fc-afd5-f0b60c738206)  <br />
+&emsp; &emsp; ![image](https://github.com/anagraw/Google-Girl-Hackathon-Final-Round/assets/92045291/0f0bce89-a690-4a53-97d0-a3043bab183e)<br />
 &emsp; &emsp; b) Open Git Bash  <br />
 &emsp; &emsp; c) Change the current working directory to the location where you want the cloned directory.  <br />
 &emsp; &emsp; d) Type git clone, and then paste the URL you copied earlier. <br />
