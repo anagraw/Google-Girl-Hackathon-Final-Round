@@ -1,5 +1,5 @@
 # Google Girl Hackathon Final Round
-##  _I Will Always Try To Find You _
+***I Will Always Try To Find You ***
 The problem statement for the Final Round was as follows: <br />
 The task is to design an algorithm and write its code to identify the input vector required to identify the fault at a given node in a given circuit.
 In a case, there would only be a single fault in the design.
