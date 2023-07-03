@@ -1,6 +1,7 @@
 # Google Girl Hackathon Final Round
 
-The problem statement for the Final Round was as follows: <br />
+## <ins>Problem Statement</ins> <br />
+
 The task is to design an algorithm and write its code to identify the input vector required to identify the fault at a given node in a given circuit.
 In a case, there would only be a single fault in the design.
 The algorithm should be efficient, robust and able to identify faults quickly.
@@ -62,21 +63,21 @@ The program haunts the stuck-at faults present in the circuit! <br />
 The program finds the input vector to detect Stuck at Fault in a Circuit Net and also returns the output value Z as well, which helps to confirm the fault.<br /> 
 
 ## Things you need to know:
-&emsp;The submission.py file has the main program that returns the input vector to detect the stuck-at-fault. <br />
-&emsp;The input.txt file contains the circuit file. <br />
-&emsp;The fault.txt file contains the fault present in the circuit in the required format. <br />
-&emsp;The output.txt is the file containing the input vector and Z value required to detect the fault. <br />
-&emsp;(This file is generated upon executing the program) <br />
+&emsp; * The submission.py file has the main program that returns the input vector to detect the stuck-at-fault. <br />
+&emsp; * The input.txt file contains the circuit file. <br />
+&emsp; * The fault.txt file contains the fault present in the circuit in the required format. <br />
+&emsp; * The output.txt is the file containing the input vector and Z value required to detect the fault. <br />
+&emsp;   (This file is generated upon executing the program) <br />
 
 ## Few Requirements for the circuit file and fault file:
-&emsp;The Circuit file should strictly have 4 inputs: A,B,C and D respectively only. <br />
-&emsp;The Fault file should strictly contain only one stuck at fault. <br />
-&emsp;The nets in the Circuit file should be named net_e, net_f and net_g respectively only. <br />
-&emsp;The output in the Circuit file should be strictly named Z only. <br />
+&emsp; * The Circuit file should strictly have 4 inputs: A,B,C and D respectively only. <br />
+&emsp; * The Fault file should strictly contain only one stuck at fault. <br />
+&emsp; * The nets in the Circuit file should be named net_e, net_f and net_g respectively only. <br />
+&emsp; * The output in the Circuit file should be strictly named Z only. <br />
 
 ## Future ideas to enhance the project and delve deeper:
-&emsp;1. Solve for circuits with greater number of inputs and automate the process for n number of input gates. <br />
-&emsp;2. Research on faster approaches with time complexity less than O(N) where N is the number of input gates. 
+&emsp;1. Solve for circuits with a greater number of inputs and automate the process for n number of input gates. <br />
+&emsp;2. Research on faster approaches with time complexity less than O(N) where N is the number of input gates. <br />
 &emsp;   Faster approaches will help solve more complex circuits easily. <br />
 &emsp;&emsp; Currently using the PODEM algorithm significantly reduces the time complexity from O(2^N) to O(N), <br />
 &emsp;&emsp; which enables us to increase the number of inputs from 20 to 5.10^5<br />
