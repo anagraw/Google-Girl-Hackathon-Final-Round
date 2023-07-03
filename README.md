@@ -95,7 +95,10 @@ PODEM algorithm runs it in seconds <br />
 &emsp;3. Create a web app to show circuit simulations and make the experience more interactive. <br />
 
 
-<ins> In the future, changes might be made to make the program foolproof </ins>
+
+
+
+<ins> Note:- In the future, changes might be made to make the program foolproof </ins>
 <ins> and incorporate corner cases or suggestions if found. </ins> <br />
 <ins> Replication of the program for publishing purposes without prior permission is not allowed</ins> <br />
 
