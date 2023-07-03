@@ -46,14 +46,15 @@ The output should be printed to the following file in run directory - output.txt
 [A, B, C, D] = [0, 0, 0, 1], Z = 1 <br />
 
 ## <ins>How to run the code: </ins>
-&emsp;  1. You may clone the github repository using the git clone command in the terminal:
-&emsp; &emsp; a) Navigate to the Code tab, and in the dropdown, choose HTTPS:
-&emsp; &emsp; ![image](https://github.com/anagraw/Google_Girl_Hackathon_Final_Round/assets/92045291/929379b6-a5ff-49fc-afd5-f0b60c738206)
-&emsp; &emsp; b) Open Git Bash
-&emsp; &emsp; c) Change the current working directory to the location where you want the cloned directory.
-&emsp; &emsp; d) Type git clone, and then paste the URL you copied earlier.
-&emsp; &emsp; '''
-&emsp; &emsp; git clone https://github.com/anagraw/Google_Girl_Hackathon_Final_Round.git
-&emsp; &emsp; '''
+&emsp;  1. You may clone the github repository using the git clone command in the terminal:  <br />
+&emsp; &emsp; a) Navigate to the Code tab, and in the dropdown, choose HTTPS:  <br />
+&emsp; &emsp; ![image](https://github.com/anagraw/Google_Girl_Hackathon_Final_Round/assets/92045291/929379b6-a5ff-49fc-afd5-f0b60c738206)  <br />
+&emsp; &emsp; b) Open Git Bash  <br />
+&emsp; &emsp; c) Change the current working directory to the location where you want the cloned directory.  <br />
+&emsp; &emsp; d) Type git clone, and then paste the URL you copied earlier. <br />
+&emsp; &emsp; 
+'''
+ git clone https://github.com/anagraw/Google_Girl_Hackathon_Final_Round.git
+'''
 
 
