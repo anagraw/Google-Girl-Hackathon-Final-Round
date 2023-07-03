@@ -75,14 +75,21 @@ The program finds the input vector to detect Stuck at Fault in a Circuit Net and
 &emsp; * The nets in the Circuit file should be named net_e, net_f and net_g respectively only. <br />
 &emsp; * The output in the Circuit file should be strictly named Z only. <br />
 
+## How is this program an optimized approach:
+Let us say we have a server that can handle 10^8 operations per second, and hypothetically we have 20 inputs <br />
+Using the conventional approach of testing a combination of 0s and 1s as input <br />
+The program runs in 10 milliseconds <br />
+With our PODEM algorithm, the program runs in 20 microseconds <br />
+As the number of inputs increases from 20 to 50, the traditional 2^N algorithm takes several minutes while the <br />
+PODEM algorithm runs it in seconds <br />
+
+
 ## Future ideas to enhance the project and delve deeper:
 &emsp;1. Solve for circuits with a greater number of inputs and automate the process for n number of input gates. <br />
 &emsp;2. Research on faster approaches with time complexity less than O(N) where N is the number of input gates. <br />
 &emsp;   Faster approaches will help solve more complex circuits easily. <br />
 &emsp;&emsp; Currently using the PODEM algorithm significantly reduces the time complexity from O(2^N) to O(N), <br />
-&emsp;&emsp; which enables us to increase the number of inputs from 20 to 5.10^5<br />
-&emsp;&emsp; (Table for reference)<br />
-&emsp;&emsp; ![image](https://github.com/anagraw/Google_Girl_Hackathon_Final_Round/assets/92045291/b84641c7-a35b-4708-9fab-1ab3aa429f36)<br />
+&emsp;&emsp; We can look for better algorithms that take lesser time  <br />
 &emsp;3. Create a web app to show circuit simulations and make the experience more interactive. <br />
 
 
