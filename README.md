@@ -5,6 +5,7 @@ In a case, there would only be a single fault in the design.
 The algorithm should be efficient, robust and able to identify faults quickly.
 
 <ins>Inputs</ins>
+
 Available inputs are -
   1.Circuit file (format provided below)
   2.Fault node location
@@ -16,6 +17,7 @@ The code should print a vector for inputs to test the fault, and the expected va
 The output should be printed to the following file in run directory - output.txt
 
 <ins>Circuit Format </ins>
+
   1.The circuit will have 4 inputs - A, B, C and D. All of which are boolean type (only 0 and 1 are valid inputs)
   2.The circuit’s output will always be Z which is also a boolean.
   3.The circuit will be built using the following operations -
