@@ -4,7 +4,7 @@ The task is to design an algorithm and write its code to identify the input vect
 In a case, there would only be a single fault in the design.
 The algorithm should be efficient, robust and able to identify faults quickly.
 
-<ins>Inputs</ins>
+## <ins>Inputs</ins>
 
 Available inputs are - <br />
 &emsp;  1.Circuit file (format provided below) <br />
@@ -13,11 +13,11 @@ Available inputs are - <br />
 &emsp; &emsp;   a)SA0 : stuck-at-0, a fault where node is not able to attain value 1, irrespective of inputs <br />
 &emsp; &emsp;   b)SA1 : stuck-at-1, a fault where node is not able to attain value 0, irrespective of inputs <br />
 
-<ins>Outputs</ins> <br />
+##<ins>Outputs</ins> <br />
 The code should print a vector for inputs to test the fault, and the expected value of output to confirm the fault.
 The output should be printed to the following file in run directory - output.txt
 
-<ins>Circuit Format </ins>
+##<ins>Circuit Format </ins>
 
   &emsp;1.The circuit will have 4 inputs - A, B, C and D. All of which are boolean type (only 0 and 1 are valid inputs) <br />
   &emsp;2.The circuit’s output will always be Z which is also a boolean. <br />
@@ -30,17 +30,17 @@ The output should be printed to the following file in run directory - output.txt
   &emsp;5.All internal nodes in the circuit would be named as : “net_<alphanumeric string>” <br />
   &emsp;6.Each input ( A / B / C / D ) would be utilized only once in the circuit. <br />
 
-<ins>Example Input </ins>
+##<ins>Example Input </ins>
 
-Circuit File: <br />
+####Circuit File: <br />
 &emsp; net_e = A & B <br />
 &emsp; net_f = C | D <br />
 &emsp; net_g = ~ net_f <br />
 &emsp; Z = net_g ^ net_e <br />
 
-Fault: <br />
+####Fault: <br />
 &emsp; FAULT_AT = net_f <br />
 &emsp; FAULT_TYPE = SA0 <br />
 
-<ins> Example Output: </ins> <br />
+##<ins> Example Output: </ins> <br />
 [A, B, C, D] = [0, 0, 0, 1], Z = 1 <br />
