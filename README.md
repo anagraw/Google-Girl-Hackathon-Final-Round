@@ -75,7 +75,8 @@ The program finds the input vector to detect Stuck at Fault in a Circuit Net and
 
 ## Future ideas to enhance the project and delve deeper:
 &emsp;1. Solve for circuits with greater number of inputs and automate the process for n number of input gates. <br />
-&emsp;2. Research on faster approaches with time complexity less than O(N) where N is the number of input gates. Faster approaches will help solve more complex circuits easily. <br />
+&emsp;2. Research on faster approaches with time complexity less than O(N) where N is the number of input gates. Faster approaches will help 
+&emsp;solve more complex circuits easily. <br />
 &emsp;&emsp; Currently using the PODEM algorithm significantly reduces the time complexity from O(2^N) to O(N), <br />
 &emsp;&emsp; which enables us to increase the number of inputs from 20 to 5.10^5<br />
 &emsp;&emsp; (Table for reference)<br />
