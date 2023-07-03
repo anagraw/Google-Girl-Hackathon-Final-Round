@@ -54,9 +54,9 @@ The output should be printed to the following file in run directory - output.txt
 &emsp; &emsp; c) Change the current working directory to the location where you want the cloned directory.  <br />
 &emsp; &emsp; d) Type git clone, and then paste the URL you copied earlier. <br />
 &emsp; &emsp; &emsp;  ```git clone https://github.com/anagraw/Google_Girl_Hackathon_Final_Round.git ```
-```diff
-+ ## ***I Will Always Try To Find You*** <br />
-```
+
+## ***I Will Always Try To Find You*** <br />
+
 Sounds like a horror story title? Well, it is! <br />
 The program haunts the stuck-at faults present in the circuit! <br />
 The program finds the input vector to detect Stuck at Fault in a Circuit Net and also returns the output value Z as well, which helps to confirm the fault.<br /> 
