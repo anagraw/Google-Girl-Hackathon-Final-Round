@@ -53,8 +53,8 @@ The output should be printed to the following file in run directory - output.txt
 &emsp; &emsp; c) Change the current working directory to the location where you want the cloned directory.  <br />
 &emsp; &emsp; d) Type git clone, and then paste the URL you copied earlier. <br />
 &emsp; &emsp; 
-'''
+```
  git clone https://github.com/anagraw/Google_Girl_Hackathon_Final_Round.git
-'''
+```
 
 
